@@ -12,7 +12,8 @@
     "PNPM_HOME": "/root/.local/share/pnpm",
     "PATH": "/root/.local/share/pnpm/bin:$NVM_BIN:$PATH",
     "ANTHROPIC_API_KEY": "${localEnv:ANTHROPIC_API_KEY}",
-    "OPENAI_API_KEY": "${localEnv:OPENAI_API_KEY}"
+    "OPENAI_API_KEY": "${localEnv:OPENAI_API_KEY}",
+    "GEMINI_API_KEY": "${localEnv:GEMINI_API_KEY}"
   },
   "secrets": {
     "ANTHROPIC_API_KEY": {
@@ -22,6 +23,10 @@
     "OPENAI_API_KEY": {
       "description": "OpenAI API Key (optional for Codex)",
       "documentationUrl": "https://platform.openai.com/api-keys"
+    },
+    "GEMINI_API_KEY": {
+      "description": "Gemini API Key (optional for Gemini Cli)",
+      "documentationUrl": "https://aistudio.google.com/apikey"
     }
   },
   "customizations": {

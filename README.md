@@ -1,6 +1,6 @@
 # Vibes
 
-A repository with GitHub Codespaces configuration that includes Claude Code with API key authentication.
+A repository with GitHub Codespaces configuration that configures [Claude Code](https://www.anthropic.com/claude-code), [OpenAI Codex CLI](https://github.com/openai/codex), or [Google Gemini CLI](https://github.com/google-gemini/gemini-cli)
 
 ## Setup
 
