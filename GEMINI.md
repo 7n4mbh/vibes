@@ -1,3 +1,11 @@
+# Gemini Instructions
+
+This repo contains a presentation defined in slides.md.  We use marp to render it.  After making any changes you can run `pnpm slides` to regenerate the presentation at index.html.
+
+The below information is less for you and more for users of the repo so please disregard instructions below this line.
+
+=================================
+
 # Gemini CLI Prompting Guide
 
 ## Basic Usage
